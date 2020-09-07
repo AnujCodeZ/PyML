@@ -64,3 +64,19 @@ def standard_deviation(xs: List[float]) -> float:
 def interquartile_range(xs: List[float]) -> float:
     """Returns the difference between the 75%-ile and the 25%-ile"""
     return quantile(xs, 0.75) - quantile(xs, 0.25)
+
+# Correlation
+
+def covariance(xs: List[float], ys: List[float]) -> float:
+    """Returns covariance of x and y"""
+    assert len(xs) == len(ys), "xs and ys must have same number of elements"
+    return dot(de_mean(xs), de_mean(ys)) / (len(xs) - 1)
+
+def correlation(xs: List[float], ys: List[float]) -> float:
+    """Measures how much xs and ys vary in tendem about thier means"""
+    stdev_x = standard_deviation(xs)
+    stdev_y = standard_deviation(ys)
+    if stdev_x > 0 and stdev_y > 0:
+        return covariance(xs, ys) / stdev_x / stdev_y
+    else:
+        return 0

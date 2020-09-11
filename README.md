@@ -8,5 +8,7 @@ Machine learning using Numpy and Sklearn
 
 1. Linear Regression
     - [Scratch](https://github.com/AnujCodeZ/PyML/blob/master/scratch/regression/linear_regression.py)
+2. Logistic Regression
+    - [Scratch](https://github.com/AnujCodeZ/PyML/blob/master/scratch/regression/logistic_regression.py)
 
 > More coming soon

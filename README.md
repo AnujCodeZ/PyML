@@ -10,5 +10,7 @@ Machine learning using Numpy and Sklearn
     - [Scratch](https://github.com/AnujCodeZ/PyML/blob/master/scratch/regression/linear_regression.py)
 2. Logistic Regression
     - [Scratch](https://github.com/AnujCodeZ/PyML/blob/master/scratch/regression/logistic_regression.py)
+3. SVM
+    - [Scratch](https://github.com/AnujCodeZ/PyML/blob/master/scratch/svm/main.py)
 
 > More coming soon

@@ -14,7 +14,7 @@ def majority(labels):
         return majority(labels[:-1])
 
 def distance(p1, p2):
-    sub = np.subtract(p1 - p2)
+    sub = np.subtract(p1, p2)
     return np.sqrt(np.dot(sub, sub))
 
 class LabeledPoint:
@@ -26,5 +26,5 @@ def knn_classify(k, labeled_points, new_point):
     
     by_distance = sorted(labeled_points,
                          key=lambda lp: distance(lp.point, new_point))
-    k_nearest_labels = [lb.label for lp in by_distance[:k]]
+    k_nearest_labels = [lb.label for lb in by_distance[:k]]
     return majority(k_nearest_labels)

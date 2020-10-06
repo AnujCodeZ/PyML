@@ -4,7 +4,7 @@ import numpy as np
 def split_data(data, prob):
     data = data[:]
     random.shuffle(data)
-    cut = ont(len(data) * prob)
+    cut = int(len(data) * prob)
     return data[:cut], data[cut:]
 
 def train_test_split(x, y, prob):

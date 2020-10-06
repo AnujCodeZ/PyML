@@ -13,6 +13,10 @@ def majority(labels):
     else:
         return majority(labels[:-1])
 
+def distance(p1, p2):
+    sub = np.subtract(p1 - p2)
+    return np.sqrt(np.dot(sub, sub))
+
 class LabeledPoint:
     def __init__(self, point, label):
         self.point = point

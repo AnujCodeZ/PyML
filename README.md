@@ -10,5 +10,7 @@ Machine learning using Numpy.
 3. [SVM](https://github.com/AnujCodeZ/PyML/blob/master/svm/main.py)
 4. [Decision Tree](https://github.com/AnujCodeZ/PyML/blob/master/decision_tree/main.py)
 5. [Naive Bayes](https://github.com/AnujCodeZ/PyML/blob/master/naive_bayes/main.py)
+6. [KNN](https://github.com/AnujCodeZ/PyML/blob/master/k-nearest_neighbors/main.py)
+7. [KMeans](https://github.com/AnujCodeZ/PyML/blob/master/k-means_clustering/main.py)
 
 > More coming soon

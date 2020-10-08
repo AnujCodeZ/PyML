@@ -12,5 +12,6 @@ Machine learning using Numpy.
 5. [Naive Bayes](https://github.com/AnujCodeZ/PyML/blob/master/naive_bayes/main.py)
 6. [KNN](https://github.com/AnujCodeZ/PyML/blob/master/k-nearest_neighbors/main.py)
 7. [KMeans](https://github.com/AnujCodeZ/PyML/blob/master/k-means_clustering/main.py)
+8. [PCA](https://github.com/AnujCodeZ/PyML/blob/master/PCA/main.py)
 
 > More coming soon

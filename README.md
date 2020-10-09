@@ -13,5 +13,6 @@ Machine learning using Numpy.
 6. [KNN](https://github.com/AnujCodeZ/PyML/blob/master/k-nearest_neighbors/main.py)
 7. [KMeans](https://github.com/AnujCodeZ/PyML/blob/master/k-means_clustering/main.py)
 8. [PCA](https://github.com/AnujCodeZ/PyML/blob/master/PCA/main.py)
+9. [Anomaly Detection](https://github.com/AnujCodeZ/PyML/blob/master/anomaly_detection/main.py)
 
 > More coming soon

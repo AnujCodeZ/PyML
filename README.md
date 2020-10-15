@@ -14,5 +14,6 @@ Machine learning using Numpy.
 7. [KMeans](https://github.com/AnujCodeZ/PyML/blob/master/k-means_clustering/main.py)
 8. [PCA](https://github.com/AnujCodeZ/PyML/blob/master/PCA/main.py)
 9. [Anomaly Detection](https://github.com/AnujCodeZ/PyML/blob/master/anomaly_detection/main.py)
+10. [Recommendation Systems](https://github.com/AnujCodeZ/PyML/blob/master/recommendation_systems/main.py)
 
 > More coming soon
